@@ -79,14 +79,7 @@
     {
         NSSortDescriptor *sort = [NSSortDescriptor sortDescriptorWithKey:@"" ascending:NO];
         NSArray *sortedArray=[returnValue sortedArrayUsingDescriptors:@[sort]];
-        if (isFirstInt)
-        {
-            return @[returnValue1, sortedArray];
-        }
-        else
-        {
-           return @[sortedArray, returnValue1];
-        }
+        return @[returnValue1, sortedArray];
     }
     else if ([returnValue1  isEqual: @[]])
     {

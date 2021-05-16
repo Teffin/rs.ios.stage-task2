@@ -35,7 +35,7 @@
             }
             if ([number intValue] == ([sortedArray[j] intValue] - [sortedArray[i] intValue]))
             {
-                if ([sortedArray[i] intValue] != [sortedArray[i + 1] intValue])
+                if (([sortedArray[i] intValue] != [sortedArray[i + 1] intValue]) && !needRepeat)
                 {
                     i++;
                 }
