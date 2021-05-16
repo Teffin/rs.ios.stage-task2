@@ -17,12 +17,12 @@
 		8275DDE4264C16A100838828 /* TwoDimensional.md in Resources */ = {isa = PBXBuildFile; fileRef = 8275DDD7264C16A100838828 /* TwoDimensional.md */; };
 		8275DDE5264C16BC00838828 /* TwoDimensionalSortTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8275DDD5264C16A100838828 /* TwoDimensionalSortTests.m */; };
 		8275DDE6264C16BC00838828 /* IPFormatterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8275DDD1264C16A100838828 /* IPFormatterTests.m */; };
-		8275DDE7264C16BC00838828 /* ReverseBinaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8275DDC6264C16A100838828 /* ReverseBinaryTests.m */; };
 		8275DDE8264C16BC00838828 /* PairsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8275DDCA264C16A100838828 /* PairsTests.m */; };
 		8293ECA826346C7100CEE768 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8293ECA726346C7100CEE768 /* AppDelegate.m */; };
 		8293ECB326346C7500CEE768 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8293ECB226346C7500CEE768 /* Assets.xcassets */; };
 		8293ECB926346C7500CEE768 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8293ECB826346C7500CEE768 /* main.m */; };
 		8293ECF126346F7F00CEE768 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8293ECF026346F7F00CEE768 /* LaunchScreen.storyboard */; };
+		B8505B8E264EE0E600758CAD /* ReverseBinaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8275DDC6264C16A100838828 /* ReverseBinaryTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -295,8 +295,8 @@
 			files = (
 				8275DDE5264C16BC00838828 /* TwoDimensionalSortTests.m in Sources */,
 				8275DDE6264C16BC00838828 /* IPFormatterTests.m in Sources */,
-				8275DDE7264C16BC00838828 /* ReverseBinaryTests.m in Sources */,
 				8275DDE8264C16BC00838828 /* PairsTests.m in Sources */,
+				B8505B8E264EE0E600758CAD /* ReverseBinaryTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,7 +430,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "ios.stage-task/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,7 +448,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "ios.stage-task/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,7 +465,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "ios.stage-taskTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,7 +484,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "ios.stage-taskTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
